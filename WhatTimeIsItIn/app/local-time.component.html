@@ -1,0 +1,16 @@
+<div id="localTimeDiv">
+	<div>
+		<h2>The Local Time Is:</h2>
+	</div>
+	<div>
+		<table class="tables">
+			<tr>
+				<Button (click)="chooseFormat(24)">24-hr format</Button>
+				<Button (click)="chooseFormat(12)">12-hr format</Button>
+			</tr>
+		</table>
+	</div>
+	<div>
+		<h2>{{[localTime]}}</h2>
+	</div>
+</div>
